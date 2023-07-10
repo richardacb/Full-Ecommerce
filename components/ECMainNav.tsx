@@ -25,6 +25,11 @@ const ECMainNav = ({ className, ...props }: React.HTMLAttributes<HTMLElement>) =
             label: "Settings",
             active: pathname === `/${params.storeId}/settings`
         },
+        {
+            href: `/${params.storeId}/settings`,
+            label: "Test Route",
+            active: pathname === `/${params.storeId}/settings`
+        },
     ]
 
     return (
